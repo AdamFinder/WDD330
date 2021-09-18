@@ -1,0 +1,35 @@
+section {
+    max-width: 500px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #07ABC8;
+    border-radius: 7.5px;
+}
+
+h1,h2 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #07ABC8;
+    border-radius: 7.5px;
+    
+    
+}
+#adamprofile {
+    max-width: 35%;
+    float: right;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-right: 10px;
+    box-shadow: 0 0 20px #025867;
+}
+
+a:hover {color: #FF0000;}
+footer a {
+    color: white;
+}
