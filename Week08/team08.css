@@ -10,18 +10,11 @@ body {
   color: #eee;
   background-image: url(space1.jpg);
 }
-header,
-main,
-footer {
-  width: 80vw;
-  padding: 1rem 1rem;
-  margin: 0 auto;
-}
 header h1 {
   color: #09DD6B;
 }
 header h2 {
-  color: orangered;
+  color: #FF8B00;
 }
 p {
   margin: 1.5rem 0;
