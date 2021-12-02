@@ -2,15 +2,39 @@
     "cities": [
         {
             "name": "Sedona",
-            "photo": "../images/sedona_600_400",
+            "photo": "../images/sedona_600_400.jpg",
             "motto": "The most beautiful place on Earth",
             "yearFounded": 1858,
-            "currentPopulation": 10322,
+            "currentPopulation": "10,322",
             "topHikes": [
                 "Devils Bridge Trail ",
                 "Cathedral Rock Trail ",
                 "Boynton Canyon Trail"
             ]
+        },
+        {
+            "name": "Phoenix",
+            "photo": "../images/phoenix_600x400.png",
+            "motto": "Ditat Deus: God Enriches",
+            "yearFounded": 1881,
+            "currentPopulation": "1,608,139",
+            "topHikes": [
+                "Piestewa Peak Summit Trail #300 ",
+                "Hidden Valley Trail Via Mormon Trail ",
+                "Holbert Trail to Dobbins Lookout"
+            ]   
+        },
+        {
+            "name": "Flagstaff",
+            "photo": "../images/flagstaff_600x400",
+            "motto": "Service at a Higher Elevation",
+            "yearFounded": 1894,
+            "currentPopulation": "76,831",
+            "topHikes": [
+                "Humphreys Peak",
+                "Fatemans Loop Trail",
+                "Elden Lookout Trail"
+            ]   
         }
     ]
 }
