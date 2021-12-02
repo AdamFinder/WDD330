@@ -1,0 +1,16 @@
+{
+    "cities": [
+        {
+            "name": "Sedona",
+            "photo": "../images/sedona_600_400",
+            "motto": "The most beautiful place on Earth",
+            "yearFounded": 1858,
+            "currentPopulation": 10322,
+            "topHikes": [
+                "Devils Bridge Trail",
+                "Cathedral Rock Trail",
+                "Boynton Canyon Trail"
+            ]
+        }
+    ]
+}
