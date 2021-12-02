@@ -1,11 +1,11 @@
 const url = "https://raw.githubusercontent.com/AdamFinder/WDD330/main/Final/json/cities.json"
-const images = ['images/sedona_600_400.jpg', 'images/sodasprings.jpg', 'images/fishhaven.jpg']
+const images = ['images/sedona_600_400.jpg', 'images/phoenix_600x400.jpg', 'images/fishhaven.jpg']
 
 fetch(url)
 .then(response => response.json())
 .then(jsonData => {
     const data = jsonData['cities']
-    const cities = data.filter(city => city.name === 'Sedona' || city.name === 'Soda Springs' || city.name === 'Preston')
+    const cities = data.filter(city => city.name === 'Sedona' || city.name === 'Phoenix' || city.name === 'Flagstaff')
     
     cities.forEach(city => {
         const { name, motto, yearFounded, currentPopulation, topHikes } = city
