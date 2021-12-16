@@ -15,7 +15,7 @@ const hikeList = [
     },
     {
         name: 'Hidden Valley Trail Via Mormon Trail',
-        imgSrc: 'falls.jpg',
+        imgSrc: 'hidden.jpg',
         imgAlt: 'Image of Bechler Falls',
         distance: '3.6 miles',
         difficulty: 'Moderate',
@@ -25,7 +25,7 @@ const hikeList = [
     },
     {
         name: 'Holbert Trail to Dobbins Lookout',
-        imgSrc: 'falls.jpg',
+        imgSrc: 'holbert.jpg',
         imgAlt: 'Image of Bechler Falls',
         distance: '4 miles',
         difficulty: 'Moderate',
@@ -36,7 +36,7 @@ const hikeList = [
     }
 ];
 
-const imgBasePath = '//WDD330/Final/images';
+const imgBasePath = './images/';
 
 export default class Hikes {
     constructor(elementId) {
@@ -85,7 +85,7 @@ export default class Hikes {
     }
     buildBackButton() {
         const backButton = document.createElement('button');
-        backButton.innerHTML = '&lt;- All Hikes';
+        backButton.innerHTML = '🢀 All Hikes';
         backButton.addEventListener('click', () => {
             this.showHikeList();
         });

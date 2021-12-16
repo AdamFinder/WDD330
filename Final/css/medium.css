@@ -2,12 +2,6 @@
     .forecast {
         display: flex;
     }
-    .map {
-        display: block;
-    }
-    .gallery {
-        grid-template-columns: 1fr 1fr;
-    }
     .wcontent {
         max-width: 700px;
         margin: 0 auto;
@@ -69,9 +63,4 @@
         color: white;
         font-family: "Muli", serif;
     }
-    .homea {
-        background-color: #dadee0;
-        border: 1px solid #000000;
-        padding: 1rem;
-      }
 }

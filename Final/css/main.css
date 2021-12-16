@@ -1,5 +1,5 @@
 header {
-    background-color: #07ABC8;
+    background-color: #D4A06A;
     padding: 1.2rem 0;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ header {
   }
 
   footer {
-    background-color: #07ABC8;
+    background-color: #D4A06A;
     color: #052547;
     text-align: center;
     vertical-align: center;
@@ -63,19 +63,6 @@ h1, h2, h4 {
 p {
   font-family: "Muli", sans-serif;
 }
-
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2% 0;
-    margin: 10px;
-    border: 1px dashed black;
-    background-color: lightgrey;
-    font-family: "Muli", sans-serif;
-}
-
-  
   
   .navigation {
     display: block;
@@ -155,57 +142,7 @@ p {
  #forecast:last-child {
    border-right: 1px solid black;
  }
- .aimg {
-   display: block;
-   max-width: 100%;
-   margin: 1rem;
- }
- article {
-   border: 1px solid #dadee0;
-   padding: 1rem;
-   background-color: #dadee0;
-   margin: 1rem auto;
- }
- .contact {
-   margin: 15px 0px;
-   padding: 1rem;
-   display: flex;
-   flex: 1 1 100%;
- }
- .map {
-   display: none;
-   margin: 1rem;
- }
- .map img {
-  width: 100%
- }
 .contentwidth {
   max-width: 1000px;
   margin: auto;
-}
-.promo {
-  display: block;
-  background-color: green;
-  color: black;
-  font-weight: bold;
-  padding: 1rem;
-}
-.hidden {
-  display: none;
-}
-
-.fitem p {
-  color: white;
-}
-.homea {
-  background-color: #dadee0;
-  border: 1px solid #000000;
-  padding: 1rem;
-}
-.event {
-  padding: 1rem;
-  background-color: #07ABC8;
-  color: #052547;
-  border: 5px solid #000000;
-  text-align: center;
 }

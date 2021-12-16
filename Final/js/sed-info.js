@@ -4,7 +4,7 @@
 const hikeList = [
     {
         name: 'Devil Bridge Trail',
-        imgSrc: 'falls.jpg',
+        imgSrc: 'devils.jpg',
         imgAlt: 'Image of Bechler Falls',
         distance: '1.8 Miles',
         difficulty: 'Easy',
@@ -15,7 +15,7 @@ const hikeList = [
     },
     {
         name: 'Cathedral Rock',
-        imgSrc: 'falls.jpg',
+        imgSrc: 'cathedral.jpg',
         imgAlt: 'Image of Bechler Falls',
         distance: '0.7 miles (1.5 roundtrip)',
         difficulty: 'Moderate',
@@ -25,7 +25,7 @@ const hikeList = [
     },
     {
         name: 'Boynton Canyon Trail',
-        imgSrc: 'falls.jpg',
+        imgSrc: 'boynton.jpg',
         imgAlt: 'Image of Bechler Falls',
         distance: '7.3 miles',
         difficulty: 'Easy - Moderate',
@@ -36,7 +36,7 @@ const hikeList = [
     }
 ];
 
-const imgBasePath = '//byui-cit.github.io/cit261/examples/';
+const imgBasePath = './images/';
 
 export default class Hikes {
     constructor(elementId) {
@@ -85,7 +85,7 @@ export default class Hikes {
     }
     buildBackButton() {
         const backButton = document.createElement('button');
-        backButton.innerHTML = '&lt;- All Hikes';
+        backButton.innerHTML = '🢀 All Hikes';
         backButton.addEventListener('click', () => {
             this.showHikeList();
         });

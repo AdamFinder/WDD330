@@ -4,7 +4,7 @@
 const hikeList = [
     {
         name: 'Humphreys Peak Trail',
-        imgSrc: 'falls.jpg',
+        imgSrc: 'humphreys.jpg',
         imgAlt: 'Image of Bechler Falls',
         distance: '5 - 5.5 miles',
         difficulty: 'Moderate',
@@ -14,8 +14,8 @@ const hikeList = [
             'From Flagstaff, take Highway 180 north for 6.5 miles (180 begins in downtown from Route 66 as Humphreys Street, turn left on W Columbus Avenue from Humphreys Street to follow 180). Six or seven miles out of Flagstaff, near mile post 223, turn right on the signed N Snowbowl Road. Follow the paved Snowbowl Road steeply up the mountain for 6.5 miles where you will see the signed parking area on the left. Entering “Arizona Snowbowl” on your GPS will also get you there.'
     },
     {
-        name: 'Fatemans Loop Trail',
-        imgSrc: 'falls.jpg',
+        name: 'Fatmans Loop Trail',
+        imgSrc: 'fatman.jpg',
         imgAlt: 'Image of Bechler Falls',
         distance: '2 miles',
         difficulty: 'Moderate',
@@ -25,7 +25,7 @@ const hikeList = [
     },
     {
         name: 'Elden Lookout Trail',
-        imgSrc: 'falls.jpg',
+        imgSrc: 'elden.jpg',
         imgAlt: 'Image of Bechler Falls',
         distance: '3 miles',
         difficulty: 'Moderate',
@@ -36,7 +36,7 @@ const hikeList = [
     }
 ];
 
-const imgBasePath = '//byui-cit.github.io/cit261/examples/';
+const imgBasePath = './images/';
 
 export default class Hikes {
     constructor(elementId) {
@@ -85,7 +85,7 @@ export default class Hikes {
     }
     buildBackButton() {
         const backButton = document.createElement('button');
-        backButton.innerHTML = '&lt;- All Hikes';
+        backButton.innerHTML = '🢀 All Hikes';
         backButton.addEventListener('click', () => {
             this.showHikeList();
         });
